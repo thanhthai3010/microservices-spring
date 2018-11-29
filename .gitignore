@@ -2,7 +2,9 @@
 logs/
 bin/
 .gradle/
-
+.settings/
+gradle/
+gradlew
 
 # Compiled source #
 ###################
@@ -10,3 +12,7 @@ bin/
 *.class
 *.dll
 *.exe
+*.classpath
+gradlew.bat
+settings.gradle
+*.project
