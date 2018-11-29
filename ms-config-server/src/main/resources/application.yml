@@ -3,6 +3,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/isilona/microservices/
+          uri: https://github.com/thanhthai3010/microservices-spring/
           search-paths:
             - "ms-config-properties/{application}/{profile}"
