@@ -1,4 +1,4 @@
-package ms.user.main;
+package ms.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

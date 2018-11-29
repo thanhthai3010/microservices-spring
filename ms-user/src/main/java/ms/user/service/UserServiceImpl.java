@@ -1,11 +1,14 @@
-package ms.user.repository;
+package ms.user.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
+import ms.user.entity.User;
 import ms.user.kafka.producer.Sender;
-import ms.user.model.User;
+import ms.user.repository.UserRepository;
 
+@Component
 public class UserServiceImpl implements UserService {
 
     @Value("${spring.kafka.topic.userCreated}")
@@ -31,5 +34,4 @@ public class UserServiceImpl implements UserService {
     public Iterable<User> findAll() {
 	return userRepository.findAll();
     }
-
 }

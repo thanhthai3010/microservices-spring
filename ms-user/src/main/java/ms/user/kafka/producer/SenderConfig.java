@@ -13,7 +13,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
 import org.springframework.kafka.support.serializer.JsonSerializer;
 
-import ms.user.model.User;
+import ms.user.entity.User;
 
 @Configuration
 public class SenderConfig {

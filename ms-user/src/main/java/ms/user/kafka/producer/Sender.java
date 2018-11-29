@@ -5,9 +5,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 
-import ms.user.model.User;
+import ms.user.entity.User;
 
 public class Sender {
+
     private static final Logger LOGGER = LoggerFactory.getLogger(Sender.class);
 
     @Autowired

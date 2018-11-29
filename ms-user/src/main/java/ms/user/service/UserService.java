@@ -1,8 +1,9 @@
-package ms.user.repository;
+package ms.user.service;
 
-import ms.user.model.User;
+import ms.user.entity.User;
 
 public interface UserService {
+
     User registerUser(User input);
 
     Iterable<User> findAll();
